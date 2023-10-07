@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.testingSuite.GmailTest"/>
+      <class name="com.testingSuite.OrangeHRMTest"/>
+      <class name="com.testingSuite.FacebookTest"/>
+      <class name="com.testingSuite.AmazonTest"/>
+      <class name="com.testingSuite.IHGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

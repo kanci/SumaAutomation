@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="firstname" value="Suma"></parameter>
+  <parameter name="lastName" value="Kancherla"></parameter>
+  <parameter name="mail" value="sumancherla88@gmail.com"></parameter>
+  <parameter name="confirmmail" value="sumancherla88@gmail.com"></parameter>
+   <parameter name="pass" value="SumaGani88!*"></parameter>
+  <parameter name="confirmPass" value="SumaGani88!"></parameter>
+    <classes>
+      <class name="com.parametertests.IHGTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
