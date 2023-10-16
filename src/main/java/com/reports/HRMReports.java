@@ -29,9 +29,9 @@ public class HRMReports {
 	public void begin() {
 		report=new ExtentReports(".//reports//HRMAppReport.html",true);
 		
-		report.addSystemInfo("Author", "Padma");
-		report.addSystemInfo("userstory", "US10204");
-		report.addSystemInfo("Environment", "QA");
+		//report.addSystemInfo("Author", "Suma");
+		//report.addSystemInfo("userstory", "US10204");
+		//report.addSystemInfo("Environment", "QA");
 		test = report.startTest("Verify user is able to login hrm with valid credentials");
 	}
 	
@@ -46,7 +46,6 @@ public class HRMReports {
 		driver.manage().timeouts().implicitlyWait(70, TimeUnit.SECONDS);
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
-		//Thread.sleep(5000);
 
 		
 		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
@@ -55,7 +54,7 @@ public class HRMReports {
 		test.log(LogStatus.PASS,"Entered password"+test.addScreenCapture(snap()));
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		Thread.sleep(10000);
-		test.log(LogStatus.PASS,"ClickLoginbutton"+test.addScreenCapture(snap()));
+		test.log(LogStatus.PASS,"User logged in after click login button"+test.addScreenCapture(snap()));
 		
 	}
 	

@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="677" started-at="2023-10-06T00:07:25Z" finished-at="2023-10-06T00:07:26Z">
+  <suite name="Default suite" duration-ms="20376" started-at="2023-10-12T22:52:55Z" finished-at="2023-10-12T22:53:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="677" started-at="2023-10-06T00:07:25Z" finished-at="2023-10-06T00:07:26Z">
-      <class name="com.excelTest.ReadExcelAnotherDataTest">
-        <test-method status="PASS" signature="excel()[pri:0, instance:com.excelTest.ReadExcelAnotherDataTest@4566e5bd]" name="excel" duration-ms="637" started-at="2023-10-05T20:07:25Z" finished-at="2023-10-05T20:07:26Z">
+    <test name="Default test" duration-ms="20376" started-at="2023-10-12T22:52:55Z" finished-at="2023-10-12T22:53:15Z">
+      <class name="com.reports.HRMReports">
+        <test-method status="PASS" signature="begin()[pri:0, instance:com.reports.HRMReports@49993335]" name="begin" is-config="true" duration-ms="96" started-at="2023-10-12T18:52:55Z" finished-at="2023-10-12T18:52:55Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excel -->
-      </class> <!-- com.excelTest.ReadExcelAnotherDataTest -->
+        </test-method> <!-- begin -->
+        <test-method status="PASS" signature="hrm()[pri:0, instance:com.reports.HRMReports@49993335]" name="hrm" duration-ms="20366" started-at="2023-10-12T18:52:55Z" finished-at="2023-10-12T18:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrm -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.reports.HRMReports@49993335]" name="finish" is-config="true" duration-ms="183" started-at="2023-10-12T18:53:15Z" finished-at="2023-10-12T18:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.reports.HRMReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
