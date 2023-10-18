@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16694" started-at="2023-10-06T01:09:05Z" finished-at="2023-10-06T01:09:22Z">
+  <suite name="Suite" duration-ms="13878" started-at="2023-10-17T21:17:27Z" finished-at="2023-10-17T21:17:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16694" started-at="2023-10-06T01:09:05Z" finished-at="2023-10-06T01:09:22Z">
+    <test name="Test" duration-ms="13878" started-at="2023-10-17T21:17:27Z" finished-at="2023-10-17T21:17:41Z">
       <class name="com.testingTrue.AmazonTest">
-        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testingTrue.AmazonTest@6d00a15d]" name="amazon" duration-ms="7086" started-at="2023-10-06T01:09:05Z" finished-at="2023-10-06T01:09:12Z">
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.testingTrue.AmazonTest@6d00a15d]" name="amazon" duration-ms="6293" started-at="2023-10-17T21:17:27Z" finished-at="2023-10-17T21:17:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazon -->
       </class> <!-- com.testingTrue.AmazonTest -->
       <class name="com.testingTrue.FacebookTest">
-        <test-method status="PASS" signature="fb()[pri:0, instance:com.testingTrue.FacebookTest@5034c75a]" name="fb" duration-ms="3714" started-at="2023-10-06T01:09:18Z" finished-at="2023-10-06T01:09:22Z">
+        <test-method status="PASS" signature="fb()[pri:0, instance:com.testingTrue.FacebookTest@5034c75a]" name="fb" duration-ms="2605" started-at="2023-10-17T21:17:39Z" finished-at="2023-10-17T21:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fb -->
       </class> <!-- com.testingTrue.FacebookTest -->
       <class name="com.testingTrue.OrangeHRMTest">
-        <test-method status="PASS" signature="orangehrm()[pri:0, instance:com.testingTrue.OrangeHRMTest@51efea79]" name="orangehrm" duration-ms="5877" started-at="2023-10-06T01:09:12Z" finished-at="2023-10-06T01:09:18Z">
+        <test-method status="PASS" signature="orangehrm()[pri:0, instance:com.testingTrue.OrangeHRMTest@51efea79]" name="orangehrm" duration-ms="4976" started-at="2023-10-17T21:17:34Z" finished-at="2023-10-17T21:17:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orangehrm -->

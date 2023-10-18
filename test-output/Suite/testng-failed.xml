@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pass" value="admin123"/>
+  <parameter name="user" value="Admin"/>
   <test name="Test(failed)">
+    <parameter name="pass" value="admin123"/>
+    <parameter name="user" value="Admin"/>
     <classes>
-      <class name="com.dataprovider.DataOrangeHRM">
+      <class name="com.parametertests.OrangeHRM">
         <methods>
-          <include name="hrm"/>
+          <include name="orangehrm" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.dataprovider.DataOrangeHRM -->
+      </class> <!-- com.parametertests.OrangeHRM -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

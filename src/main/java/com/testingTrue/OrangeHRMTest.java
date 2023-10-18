@@ -13,7 +13,7 @@ public class OrangeHRMTest {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
 		System.out.println(driver.getCurrentUrl());
 
